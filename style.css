@@ -7,7 +7,7 @@ h1{
      color: black;
 	 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-input{
+#player1_name_input, #player2_name_input{
 	color: black;
 	border-color: mediumblue;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -41,4 +41,12 @@ button{
 #word_display
 {
 	letter-spacing: 5px;
+}
+#output{
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid thistle;
+	padding: 10px;
+	float: none;
+	text-align: left;
 }
